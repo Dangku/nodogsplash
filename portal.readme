@@ -1,0 +1,5 @@
+After tap the continue button on the splash page (CaptivePortalLogin webview of android), nodogsplash daemon print the following authenticated log, means this client authenticated to get internet access permission. This client will never open the splash page again for wifi enable/disable.
+
+	Client [38:01:46:dc:b3:9e, 192.168.11.125] authenticated
+
+If you want test the splash page open for an authenticated client again, you can stop the nodogsplash daemon and re-launch it.
